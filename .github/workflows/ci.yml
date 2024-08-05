@@ -20,8 +20,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ./build.sh config.toml --config-update
-          echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
+          if ! git checkout origin/update build.md; then
+            echo "first time building!"
+            echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
+          else
+            ./build.sh config.toml --config-update
+            echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
+          fi
               
       - name: Clear older runs
         env:
