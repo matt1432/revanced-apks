@@ -1,6 +1,6 @@
 {
   "version": "v7.10.52",
-  "versionCode": 3,
-  "zipUrl": "https://github.com/matt1432/revanced-magisk-module/releases/download/3/music-revanced-extended-magisk-v7.10.52-arm-v7a.zip",
+  "versionCode": 5,
+  "zipUrl": "https://github.com/matt1432/revanced-magisk-module/releases/download/5/music-revanced-extended-magisk-v7.10.52-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/matt1432/revanced-magisk-module/update/build.md"
 }
