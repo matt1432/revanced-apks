@@ -1,5 +1,5 @@
 [Twitter]
-arch = "arm64-v8a"
+arch = "all"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 
 [Tiktok]
@@ -18,4 +18,5 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-dlurl = "https://apkmirror.com/apk/docile-alligator/infinity-for-reddit"
 
 [Photomath]
+arch = "all"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/photomath"
