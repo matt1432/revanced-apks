@@ -20,7 +20,7 @@ build-mode = "apk"
 version = "auto"
 
 [YouTube-Music]
-app-name = "YouTubeMusic"
+app-name = "Music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
 build-mode = "apk"

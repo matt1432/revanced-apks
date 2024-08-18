@@ -26,7 +26,6 @@ jobs:
           submodules: true
 
       - name: Get options.json from secrets
-        shell: bash
         env:
           OPTIONS: ${{ secrets.OPTIONS }}
         run: |
