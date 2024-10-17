@@ -18,4 +18,5 @@ Patches: ReVanced/revanced-patches-4.16.0.jar
 Patches: ReVanced/revanced-patches-4.16.0.jar  
 Patches: ReVanced/revanced-patches-4.16.0.jar  
 Patches: ReVanced/revanced-patches-4.16.0.jar  
-Patches: ReVanced/revanced-patches-4.16.0.jar              
+Patches: ReVanced/revanced-patches-4.16.0.jar  
+Patches: ReVanced/revanced-patches-4.16.0.jar                
