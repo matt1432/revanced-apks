@@ -24,12 +24,8 @@ jobs:
             echo "first time building!"
             echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
           else
-            UPDATE_CFG=$(./build.sh config.toml --config-update)
-            if [ "$UPDATE_CFG" ]; then
-              echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
-            else
-              echo "SHOULD_BUILD=0" >> $GITHUB_OUTPUT
-            fi
+            ./build.sh config.toml --config-update
+            echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
           fi
 
       - name: Clear older runs
