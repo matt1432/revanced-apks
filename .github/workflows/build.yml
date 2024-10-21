@@ -25,6 +25,12 @@ jobs:
           fetch-depth: 0
           submodules: true
 
+      - name: Get options.json from secrets
+        env:
+          OPTIONS: ${{ secrets.OPTIONS }}
+        run: |
+          echo "$OPTIONS" > options.json
+
       - name: Update config
         if: ${{ inputs.from_ci }}
         run: |
