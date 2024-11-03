@@ -1,5 +1,5 @@
-YouTube: 19.34.42  
 YouTube-Music: 7.25.52                     
+YouTube: 19.34.42  
 Tiktok: 36.5.4  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -25,4 +25,5 @@ Patches: ReVanced/revanced-patches-4.17.0.jar
 Patches: ReVanced/revanced-patches-4.17.0.jar  
 Patches: ReVanced/revanced-patches-4.17.0.jar  
 Patches: ReVanced/revanced-patches-4.17.0.jar  
-Patches: ReVanced/revanced-patches-4.17.0.jar                            
+Patches: ReVanced/revanced-patches-4.17.0.jar  
+Patches: ReVanced/revanced-patches-4.17.0.jar                              
