@@ -30,4 +30,5 @@ Patches: ReVanced/revanced-patches-4.17.0.jar
 Patches: ReVanced/revanced-patches-4.17.0.jar  
 Patches: ReVanced/revanced-patches-4.17.0.jar  
 Patches: ReVanced/revanced-patches-4.17.0.jar  
-Patches: ReVanced/revanced-patches-4.17.0.jar                                      
+Patches: ReVanced/revanced-patches-4.17.0.jar  
+Patches: ReVanced/revanced-patches-4.17.0.jar                                        
