@@ -1,4 +1,5 @@
-Tiktok: 36.5.4  
+Twitter: 10.67.0-release.0  
+Tiktok: 37.4.1  
 YouTube: 19.43.41  
 YouTube-Music: 7.27.52  
 
