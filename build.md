@@ -1,5 +1,5 @@
 Twitter: 10.67.0-release.0  
-Tiktok: 37.4.1  
+Tiktok: 37.4.3  
 YouTube: 19.43.41  
 YouTube-Music: 7.27.52  
 
@@ -10,3 +10,6 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
 Patches: ReVanced/patches-5.0.2.rvp    
+
+Skipped:  
+Patches: ReVanced/patches-5.0.2.rvp      
