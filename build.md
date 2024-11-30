@@ -1,5 +1,5 @@
 Twitter: 10.68.2-release.0  
-Tiktok: 37.6.2  
+Tiktok: 37.6.3  
 YouTube: 19.46.42  
 YouTube-Music: 7.29.51  
 
@@ -13,4 +13,5 @@ Patches: ReVanced/patches-5.2.0.rvp
 
 Skipped:  
 Patches: ReVanced/patches-5.2.0.rvp    
-Patches: ReVanced/patches-5.2.0.rvp        
+Patches: ReVanced/patches-5.2.0.rvp    
+Patches: ReVanced/patches-5.2.0.rvp          
