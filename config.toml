@@ -37,5 +37,5 @@ arch = "arm64-v8a"
 
 [Infinity]
 apkmirror-dlurl = "https://apkmirror.com/apk/docile-alligator/infinity-for-reddit/"
-patcher-args = "--options=client-id=$ID "
+patcher-args = "--options=client-id=$ID --enable='Spoof client' "
 arch = "arm64-v8a"
