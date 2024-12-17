@@ -25,6 +25,12 @@ jobs:
           fetch-depth: 0
           submodules: true
 
+      - name: Get Infinity client-id from secrets
+        env:
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+        run: |
+          sed -i "s#\$ID#$CLIENT_ID#" config.toml
+
       - name: Update config
         if: ${{ inputs.from_ci }}
         run: |
