@@ -1,6 +1,6 @@
 Infinity: 7.4.1  
 TikTok: 37.8.5  
-Twitter: 10.71.1-release.0  
+Twitter: 10.72.0-release.0  
 YouTube: 19.46.42  
 YouTube-Music: 7.29.52  
 
@@ -17,4 +17,5 @@ Skipped:
 Patches: ReVanced/patches-5.5.1.rvp  
 Patches: ReVanced/patches-5.5.1.rvp  
 Patches: ReVanced/patches-5.5.1.rvp  
-Patches: ReVanced/patches-5.5.1.rvp            
+Patches: ReVanced/patches-5.5.1.rvp  
+Patches: ReVanced/patches-5.5.1.rvp              
