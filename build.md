@@ -1,4 +1,3 @@
-Infinity: 7.4.1  
 TikTok: 37.9.3  
 YouTube: 19.47.53  
 YouTube-Music: 7.29.52  
@@ -15,4 +14,5 @@ Patches: ReVanced/patches-5.8.0.rvp
 Skipped:  
 Patches: ReVanced/patches-5.8.0.rvp  
 Patches: ReVanced/patches-5.8.0.rvp  
-Patches: ReVanced/patches-5.8.0.rvp        
+Patches: ReVanced/patches-5.8.0.rvp  
+Patches: ReVanced/patches-5.8.0.rvp          
