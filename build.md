@@ -1,6 +1,7 @@
 Infinity: 7.4.1  
 TikTok: 37.9.3  
 Twitter: 10.72.3-release.0  
+YouTube: 19.47.53  
 YouTube-Music: 7.29.52  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -17,4 +18,5 @@ Patches: ReVanced/patches-5.8.0.rvp
 Patches: ReVanced/patches-5.8.0.rvp  
 Patches: ReVanced/patches-5.8.0.rvp  
 Patches: ReVanced/patches-5.8.0.rvp  
-Patches: ReVanced/patches-5.8.0.rvp            
+Patches: ReVanced/patches-5.8.0.rvp  
+Patches: ReVanced/patches-5.8.0.rvp              
