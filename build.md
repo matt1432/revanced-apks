@@ -21,4 +21,5 @@ Patches: ReVanced/patches-5.8.1.rvp
 Patches: ReVanced/patches-5.8.1.rvp  
 Patches: ReVanced/patches-5.8.1.rvp  
 Patches: ReVanced/patches-5.8.1.rvp  
-Patches: ReVanced/patches-5.8.1.rvp                  
+Patches: ReVanced/patches-5.8.1.rvp  
+Patches: ReVanced/patches-5.8.1.rvp                    
