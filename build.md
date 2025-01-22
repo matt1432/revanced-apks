@@ -13,4 +13,5 @@ Patches: ReVanced/patches-5.9.0.rvp
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.9.0)  
 
 Skipped:  
-Patches: ReVanced/patches-5.9.0.rvp    
+Patches: ReVanced/patches-5.9.0.rvp  
+Patches: ReVanced/patches-5.9.0.rvp      
