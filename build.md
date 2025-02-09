@@ -12,4 +12,5 @@ Patches: ReVanced/patches-5.11.0.rvp
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.11.0)  
 
 Skipped:  
-Patches: ReVanced/patches-5.11.0.rvp    
+Patches: ReVanced/patches-5.11.0.rvp  
+Patches: ReVanced/patches-5.11.0.rvp      
