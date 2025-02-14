@@ -17,4 +17,5 @@ Patches: ReVanced/patches-5.11.0.rvp
 Patches: ReVanced/patches-5.11.0.rvp  
 Patches: ReVanced/patches-5.11.0.rvp  
 Patches: ReVanced/patches-5.11.0.rvp  
-Patches: ReVanced/patches-5.11.0.rvp              
+Patches: ReVanced/patches-5.11.0.rvp  
+Patches: ReVanced/patches-5.11.0.rvp                
