@@ -1,5 +1,4 @@
 Infinity: 7.4.1  
-YouTube: 19.47.53  
 YouTube-Music: 8.05.51  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -23,4 +22,5 @@ Patches: ReVanced/patches-5.12.0.rvp
 Patches: ReVanced/patches-5.12.0.rvp  
 Patches: ReVanced/patches-5.12.0.rvp  
 Patches: ReVanced/patches-5.12.0.rvp  
-Patches: ReVanced/patches-5.12.0.rvp                          
+Patches: ReVanced/patches-5.12.0.rvp  
+Patches: ReVanced/patches-5.12.0.rvp                            
