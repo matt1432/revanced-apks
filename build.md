@@ -14,4 +14,5 @@ Patches: ReVanced/patches-5.13.0.rvp
 Skipped:  
 Patches: ReVanced/patches-5.13.0.rvp  
 Patches: ReVanced/patches-5.13.0.rvp  
-Patches: ReVanced/patches-5.13.0.rvp        
+Patches: ReVanced/patches-5.13.0.rvp  
+Patches: ReVanced/patches-5.13.0.rvp          
