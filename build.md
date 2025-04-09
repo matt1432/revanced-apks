@@ -21,4 +21,5 @@ Patches: ReVanced/patches-5.18.0.rvp
 Patches: ReVanced/patches-5.18.0.rvp  
 Patches: ReVanced/patches-5.18.0.rvp  
 Patches: ReVanced/patches-5.18.0.rvp  
-Patches: ReVanced/patches-5.18.0.rvp                      
+Patches: ReVanced/patches-5.18.0.rvp  
+Patches: ReVanced/patches-5.18.0.rvp                        
