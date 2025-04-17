@@ -1,5 +1,5 @@
 Infinity: 7.4.1  
-TikTok: 39.5.5  
+TikTok: 39.6.1  
 YouTube: 20.07.39  
 YouTube-Music: 8.05.51  
 
@@ -11,3 +11,6 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
 Patches: ReVanced/patches-5.20.1.rvp  
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.20.1)  
+
+Skipped:  
+Patches: ReVanced/patches-5.20.1.rvp    
