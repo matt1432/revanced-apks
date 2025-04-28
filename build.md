@@ -1,5 +1,4 @@
 Infinity: 7.4.1  
-TikTok: 39.7.2  
 YouTube: 20.12.46  
 YouTube-Music: 8.05.51  
 
@@ -13,4 +12,5 @@ Patches: ReVanced/patches-5.21.0.rvp
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.21.0)  
 
 Skipped:  
-Patches: ReVanced/patches-5.21.0.rvp    
+Patches: ReVanced/patches-5.21.0.rvp  
+Patches: ReVanced/patches-5.21.0.rvp      
