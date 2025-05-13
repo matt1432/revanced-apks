@@ -1,5 +1,4 @@
 Infinity: 7.4.1  
-TikTok: 39.8.3  
 YouTube: 20.12.46  
 YouTube-Music: 8.05.51  
 
@@ -14,4 +13,5 @@ Patches: ReVanced/patches-5.23.0.rvp
 
 Skipped:  
 Patches: ReVanced/patches-5.23.0.rvp  
-Patches: ReVanced/patches-5.23.0.rvp      
+Patches: ReVanced/patches-5.23.0.rvp  
+Patches: ReVanced/patches-5.23.0.rvp        
