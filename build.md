@@ -16,4 +16,5 @@ Skipped:
 Patches: ReVanced/patches-5.24.0.rvp  
 Patches: ReVanced/patches-5.24.0.rvp  
 Patches: ReVanced/patches-5.24.0.rvp  
-Patches: ReVanced/patches-5.24.0.rvp          
+Patches: ReVanced/patches-5.24.0.rvp  
+Patches: ReVanced/patches-5.24.0.rvp            
