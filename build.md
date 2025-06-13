@@ -1,4 +1,5 @@
 Infinity: 7.4.1  
+TikTok: 40.4.2  
 Twitter: 10.86.0-release.0  
 YouTube: 20.12.46  
 YouTube-Music: 8.05.51  
