@@ -1,4 +1,5 @@
 Infinity: 7.4.1  
+Twitter: 10.86.0-release.0  
 YouTube: 20.13.41  
 YouTube-Music: 8.30.51  
 
@@ -19,4 +20,5 @@ Patches: ReVanced/patches-5.32.0.rvp
 Patches: ReVanced/patches-5.32.0.rvp  
 Patches: ReVanced/patches-5.32.0.rvp  
 Patches: ReVanced/patches-5.32.0.rvp  
-Patches: ReVanced/patches-5.32.0.rvp                  
+Patches: ReVanced/patches-5.32.0.rvp  
+Patches: ReVanced/patches-5.32.0.rvp                    
