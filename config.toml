@@ -1,6 +1,10 @@
 enable-magisk-update = false
 parallel-jobs = 1
 
+[Infinity]
+apkmirror-dlurl = "https://apkmirror.com/apk/docile-alligator/infinity-for-reddit/"
+patcher-args = "--options=client-id=$ID --enable='Spoof client' "
+
 [YouTube]
 included-patches = "'Enable slide to seek'"
 excluded-patches = "'Announcements'"
@@ -12,19 +16,8 @@ app-name = "Music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
-[Twitter]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-
 [TikTok]
-version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-# included-patches = "'SIM spoof'"
-excluded-patches = """\
-  'Settings' \
-  'Downloads' \
-  'Feed filter' \
-  """
-
-[Infinity]
-apkmirror-dlurl = "https://apkmirror.com/apk/docile-alligator/infinity-for-reddit/"
-patcher-args = "--options=client-id=$ID --enable='Spoof client' "
+version = "latest"
+included-patches = "'Show seekbar' 'Disable login requirement' 'Fix Google login'"
+exclusive-patches = true
