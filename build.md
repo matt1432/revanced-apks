@@ -34,4 +34,5 @@ Patches: ReVanced/patches-5.34.0.rvp
 Patches: ReVanced/patches-5.34.0.rvp  
 Patches: ReVanced/patches-5.34.0.rvp  
 Patches: ReVanced/patches-5.34.0.rvp  
-Patches: ReVanced/patches-5.34.0.rvp                                                
+Patches: ReVanced/patches-5.34.0.rvp  
+Patches: ReVanced/patches-5.34.0.rvp                                                  
