@@ -1,3 +1,4 @@
+Infinity: 7.4.1  
 TikTok: 41.7.3  
 YouTube: 20.13.41  
 
@@ -12,4 +13,5 @@ Patches: ReVanced/patches-5.35.0.rvp
 
 Skipped:  
 Patches: ReVanced/patches-5.35.0.rvp  
-Patches: ReVanced/patches-5.35.0.rvp      
+Patches: ReVanced/patches-5.35.0.rvp  
+Patches: ReVanced/patches-5.35.0.rvp        
