@@ -1,5 +1,5 @@
 Infinity: 7.4.1  
-TikTok: 42.6.2  
+TikTok: 42.6.3  
 YouTube: 20.14.43  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -15,4 +15,5 @@ Skipped:
 Patches: ReVanced/patches-5.46.0.rvp  
 Patches: ReVanced/patches-5.46.0.rvp  
 Patches: ReVanced/patches-5.46.0.rvp  
-Patches: ReVanced/patches-5.46.0.rvp          
+Patches: ReVanced/patches-5.46.0.rvp  
+Patches: ReVanced/patches-5.46.0.rvp            
