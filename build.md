@@ -30,4 +30,5 @@ Patches: ReVanced/patches-5.46.0.rvp
 Patches: ReVanced/patches-5.46.0.rvp  
 Patches: ReVanced/patches-5.46.0.rvp  
 Patches: ReVanced/patches-5.46.0.rvp  
-Patches: ReVanced/patches-5.46.0.rvp                                        
+Patches: ReVanced/patches-5.46.0.rvp  
+Patches: ReVanced/patches-5.46.0.rvp                                          
