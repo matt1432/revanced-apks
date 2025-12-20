@@ -1,4 +1,3 @@
-Infinity: 7.4.1  
 TikTok: 43.1.1  
 YouTube: 20.14.43  
 YouTube-Music: 8.10.52  
@@ -13,4 +12,5 @@ Patches: ReVanced/patches-5.47.0.rvp
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.47.0)  
 
 Skipped:  
-Patches: ReVanced/patches-5.47.0.rvp    
+Patches: ReVanced/patches-5.47.0.rvp  
+Patches: ReVanced/patches-5.47.0.rvp      
