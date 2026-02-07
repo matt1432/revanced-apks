@@ -3,28 +3,34 @@ cli-source = "ReVanced/revanced-cli"
 parallel-jobs = 1
 
 [Infinity]
-apkmirror-dlurl = "https://apkmirror.com/apk/docile-alligator/infinity-for-reddit/"
+# 403 CF error
+# apkmirror-dlurl = "https://apkmirror.com/apk/docile-alligator/infinity-for-reddit/"
+uptodown-dlurl = "https://infinity-for-reddit.en.uptodown.com/android"
 patcher-args = "--options=client-id=$ID --enable='Spoof client' "
 
 [YouTube]
 included-patches = "'Enable slide to seek'"
-excluded-patches = "'Announcements'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+excluded-patches = "'Announcements' 'Change header'"
+# 403 CF error
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 arch = "arm64-v8a"
 riplib = false
 
 [YouTube-Music]
 app-name = "Music"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+# 403 CF error
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "arm64-v8a"
 riplib = false
 
 [TikTok]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+# 403 CF error
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 version = "latest"
 included-patches = "'Show seekbar' 'Disable login requirement' 'Fix Google login'"
 exclusive-patches = true
