@@ -17,6 +17,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 arch = "arm64-v8a"
 riplib = false
+patcher-args = "-e 'Change package name' -OpackageName=app.revanced.android.youtube"
 
 # 403 CF error
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
@@ -30,6 +31,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 arch = "arm64-v8a"
 riplib = false
+patcher-args = "-e 'Change package name' -OpackageName=app.revanced.android.apps.youtube.music"
 
 # 403 CF error
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
