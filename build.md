@@ -17,5 +17,5 @@ Patches: ReVanced/patches-5.50.2.rvp
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.50.2)  
 
 Skipped:  
-Patches: ReVanced/patches-5.50.2.rvp    
+Patches: ReVanced/patches-5.50.2.rvp  
 Patches: MorpheApp/patches-1.15.0.mpp    
