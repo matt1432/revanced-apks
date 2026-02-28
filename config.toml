@@ -25,10 +25,9 @@ patcher-args = "-e 'Change package name' -OpackageName=app.revanced.android.yout
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 
+
 [YouTube-Music]
 app-name = "Music"
-patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
 arch = "arm64-v8a"
 riplib = false
 patcher-args = "-e 'Change package name' -OpackageName=app.revanced.android.apps.youtube.music"
