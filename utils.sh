@@ -271,7 +271,7 @@ get_patch_last_supported_ver() {
 			return
 		fi
 	fi
-	op=$(patches_list_versions "$cli_jar" "$patches_jar" "$pkg_name") || return 1
+    op=$(patches_list_versions "$cli_jar" "$patches_jar" "$pkg_name" || java -jar "$cli_jar" list-versions "$patches_jar" -f "$pkg_name" 2>&1)
 	op=$(tail -n +3 <<<"$op" | awk '{$1=$1}1')
 	if [ "$op" = "Any" ]; then return; fi
 	pcount=$(head -1 <<<"$op") pcount=${pcount#*(} pcount=${pcount% *}
@@ -573,7 +573,11 @@ build_rv() {
 		return 0
 	fi
 	local list_patches
-	list_patches=$(patches_list "$cli_jar" "$patches_jar" "$pkg_name") || return 1
+    if ! list_patches=$(java -jar "$cli_jar" list-patches "$patches_jar" -f "$pkg_name" -v -p 2>&1); then
+		if ! list_patches=$(java -jar "$cli_jar" list-patches --patches "$patches_jar" -f "$pkg_name" -v -p 2>&1); then
+    		list_patches=$(patches_list "$cli_jar" "$patches_jar" "$pkg_name") || return 1
+		fi
+	fi
 	local get_latest_ver=false
 	if [ "$version_mode" = auto ]; then
 		if ! version=$(get_patch_last_supported_ver "$list_patches" "$pkg_name" \
