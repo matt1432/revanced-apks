@@ -650,8 +650,14 @@ build_rv() {
 
 	local sig_check_apk
 	if [ -f "${stock_apk}.apkm" ]; then
-		unzip -j "${stock_apk}.apkm" "base.apk" -d "${stock_apk}.base" >/dev/null
-		sig_check_apk="${stock_apk}.base/base.apk"
+        if unzip -l "${stock_apk}.apkm" | grep base.apk >/dev/null; then
+			unzip -j "${stock_apk}.apkm" "base.apk" -d "${stock_apk}.base" >/dev/null
+			sig_check_apk="${stock_apk}.base/base.apk"
+		else
+			apk_file="$(unzip -l "${stock_apk}.apkm" | sort -n | tail -n 2 | head -n 1 | sed 's/^.* \([^ ]*\.apk\)$/\1/')"
+			unzip -j "${stock_apk}.apkm" "$apk_file" -d "${stock_apk}.base" >/dev/null
+			sig_check_apk="${stock_apk}.base/$apk_file"
+		fi
 	else
 		sig_check_apk="${stock_apk}"
 	fi
