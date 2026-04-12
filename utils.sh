@@ -5,7 +5,7 @@ CWD=$(pwd)
 TEMP_DIR="temp"
 BIN_DIR="bin"
 BUILD_DIR="build"
-DL_SRCS=("direct" "archive" "apkmirror" "uptodown")
+DL_SRCS=("direct" "archive" "apkmirror" "uptodown" "infinity")
 
 if [ "${GITHUB_TOKEN-}" ]; then GH_HEADER="Authorization: token ${GITHUB_TOKEN}"; else GH_HEADER=; fi
 NEXT_VER_CODE=${NEXT_VER_CODE:-$(date +'%Y%m%d')}
@@ -271,6 +271,7 @@ get_patch_last_supported_ver() {
 		fi
 	fi
 	op=$(patches_list_versions "$cli_jar" "$patches_jar" "$pkg_name") || return 1
+    if [ "$(echo "$op" | tail -n 2 | head -n 1)" = "	Any" ]; then return; fi
 	op=$(sed -n '/(.* patch.*/,$p' <<<"$op" | awk '{$1=$1}1')
 	if [ "$op" = "Any" ]; then return; fi
 	pcount=$(head -1 <<<"$op") pcount=${pcount#*(} pcount=${pcount% *}
@@ -524,6 +525,19 @@ dl_direct() {
 get_direct_vers() { cut -d- -f2 <<<"$__DIRECT_APKNAME__"; }
 get_direct_pkg_name() { cut -d- -f1 <<<"$__DIRECT_APKNAME__"; }
 get_direct_resp() { __DIRECT_APKNAME__=$(awk -F/ '{print $NF}' <<<"$1"); }
+# --------------------------------------------------
+get_archive_pkg_name() { echo "$__ARCHIVE_PKG_NAME__"; }
+
+# -------------------- infinity --------------------
+dl_infinity() {
+	local url=$1 version=${2// /-} output=$3 arch=$4 _dpi=$5
+	req "$(echo "$__INFINITY_RESP__" | jq -r '.assets[] | select(.name | contains("Patreon")) | .browser_download_url')" "${output}" || return 1
+}
+get_infinity_vers() { echo "$__INFINITY_RESP__" | jq -r '.tag_name'; }
+get_infinity_pkg_name() { echo "ml.docilealligator.infinityforreddit.patreon"; }
+get_infinity_resp() {
+	__INFINITY_RESP__=$(gh_req https://api.github.com/repos/Docile-Alligator/Infinity-For-Reddit/releases - | jq -r '.[0]')
+}
 # --------------------------------------------------
 
 patch_apk() {

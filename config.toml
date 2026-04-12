@@ -4,18 +4,12 @@ parallel-jobs = 1
 cli-source = "MorpheApp/morphe-cli"
 cli-version = "latest"
 
-# https://github.com/ReVanced/where-is-revanced-patches
-# [Infinity]
-# patcher-args = "-e 'Spoof client' -Oclient-id=$ID"
-# cli-source = "ReVanced/revanced-cli"
-# cli-version = "v5.0.1"
-# patches-source = "ReVanced/revanced-patches"
-# patches-version = "v5.50.2"
-# arch = "arm64-v8a"
+[Infinity]
+patcher-args = "-e 'Spoof client' -Oclient-id=$ID -Oredirect-uri=infinity://localhost -e 'Modify login WebView'"
+patches-source = "wchill/patcheddit"
+patches-version = "latest"
 
-# 403 CF error
-# apkmirror-dlurl = "https://apkmirror.com/apk/docile-alligator/infinity-for-reddit/"
-# uptodown-dlurl = "https://infinity-for-reddit.en.uptodown.com/android"
+infinity-dlurl = "infinity"
 
 
 [YouTube]
